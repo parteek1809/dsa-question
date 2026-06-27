@@ -16,24 +16,24 @@ class Solution {
             }
         }
         while(!q.isEmpty()){
-            
             int curr[] = q.poll();
-                int r = curr[0];
-                int c = curr[1];
-                int neighbour[][] = { {r+1,c}, {r-1,c}, {r,c+1}, {r,c-1} };
-                for(int neigh[] : neighbour){
-                    int nr = neigh[0];
-                    int nc = neigh[1];
+            int r = curr[0];
+            int c = curr[1];
+            int neighbour[][] = { {r+1,c}, {r-1,c}, {r,c+1}, {r,c-1} };
+            for(int neigh[] : neighbour){
+                int nr = neigh[0];
+                int nc = neigh[1];
                     // dis = 0;
-                    if(nr<0 || nc<0 || nr>=m || nc>=n || vis[nr][nc] == true) continue;
-                    vis[nr][nc] = true;
-                    arr[nr][nc] = arr[r][c] +1;
-                    q.add(new int[] {nr,nc});
-                }
-                // dis++;    
-                
-            
+                if(nr<0 || nc<0 || nr>=m || nc>=n || vis[nr][nc] == true) continue;
+                vis[nr][nc] = true;
+                arr[nr][nc] = arr[r][c] +1;
+                q.add(new int[] {nr,nc});
+            }
         }
         return arr;
     }
 }
+                  
+            
+                
+            
