@@ -16,9 +16,8 @@ class Solution {
             }
         }
         while(!q.isEmpty()){
-            int size = q.size();
-            for(int i=0; i<size; i++){
-                int curr[] = q.poll();
+            
+            int curr[] = q.poll();
                 int r = curr[0];
                 int c = curr[1];
                 int neighbour[][] = { {r+1,c}, {r-1,c}, {r,c+1}, {r,c-1} };
@@ -31,8 +30,9 @@ class Solution {
                     arr[nr][nc] = arr[r][c] +1;
                     q.add(new int[] {nr,nc});
                 }
-                // dis++;
-            }
+                // dis++;    
+                
+            
         }
         return arr;
     }
