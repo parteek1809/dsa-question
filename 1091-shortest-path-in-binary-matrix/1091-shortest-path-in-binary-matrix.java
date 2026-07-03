@@ -30,77 +30,50 @@
 //     }
 // }
 
-import java.util.*;
 
 class Solution {
-
-    class Node {
-        int dist;
-        int row;
-        int col;
-
-        Node(int dist, int row, int col) {
-            this.dist = dist;
-            this.row = row;
-            this.col = col;
-        }
-    }
-
     public int shortestPathBinaryMatrix(int[][] grid) {
-
         int n = grid.length;
 
         if (grid[0][0] == 1 || grid[n - 1][n - 1] == 1)
             return -1;
 
-        int[][] dir = {
-            {-1,-1},{-1,0},{-1,1},
-            {0,-1},        {0,1},
-            {1,-1},{1,0},{1,1}
-        };
+        if (n == 1)
+            return 1;
 
-        int[][] distance = new int[n][n];
+        int[][] dist = new int[n][n];
+        for (int[] row : dist)
+            Arrays.fill(row, (int)1e9);
 
-        for (int[] row : distance)
-            Arrays.fill(row, Integer.MAX_VALUE);
+        Queue<int[]> q = new LinkedList<>();
 
-        PriorityQueue<Node> pq =
-                new PriorityQueue<>((a, b) -> a.dist - b.dist);
+        dist[0][0] = 1;
+        q.offer(new int[]{0, 0, 1});
 
-        distance[0][0] = 1;
+        int[] dr = {-1, -1, 0, -1, 1, 1, 0, 1};
+        int[] dc = {0, -1, 1, 1, 0, -1, -1, 1};
 
-        pq.offer(new Node(1, 0, 0));
+        while (!q.isEmpty()) {
+            int[] cur = q.poll();
 
-        while (!pq.isEmpty()) {
+            int r = cur[0];
+            int c = cur[1];
+            int dis = cur[2];
 
-            Node curr = pq.poll();
+            for (int i = 0; i < 8; i++) {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
 
-            int dist = curr.dist;
-            int r = curr.row;
-            int c = curr.col;
+                if (nr >= 0 && nc >= 0 && nr < n && nc < n
+                        && grid[nr][nc] == 0
+                        && dis + 1 < dist[nr][nc]) {
 
-            // Skip outdated entries
-            if (dist > distance[r][c])
-                continue;
+                    dist[nr][nc] = dis + 1;
 
-            if (r == n - 1 && c == n - 1)
-                return dist;
+                    if (nr == n - 1 && nc == n - 1)
+                        return dis + 1;
 
-            for (int[] d : dir) {
-
-                int nr = r + d[0];
-                int nc = c + d[1];
-
-                if (nr >= 0 && nr < n &&
-                    nc >= 0 && nc < n &&
-                    grid[nr][nc] == 0) {
-
-                    if (dist + 1 < distance[nr][nc]) {
-
-                        distance[nr][nc] = dist + 1;
-
-                        pq.offer(new Node(dist + 1, nr, nc));
-                    }
+                    q.offer(new int[]{nr, nc, dis + 1});
                 }
             }
         }
@@ -108,3 +81,84 @@ class Solution {
         return -1;
     }
 }
+
+
+
+// import java.util.*;
+
+// class Solution {
+
+//     class Node {
+//         int dist;
+//         int row;
+//         int col;
+
+//         Node(int dist, int row, int col) {
+//             this.dist = dist;
+//             this.row = row;
+//             this.col = col;
+//         }
+//     }
+
+//     public int shortestPathBinaryMatrix(int[][] grid) {
+
+//         int n = grid.length;
+
+//         if (grid[0][0] == 1 || grid[n - 1][n - 1] == 1)
+//             return -1;
+
+//         int[][] dir = {
+//             {-1,-1},{-1,0},{-1,1},
+//             {0,-1},        {0,1},
+//             {1,-1},{1,0},{1,1}
+//         };
+
+//         int[][] distance = new int[n][n];
+
+//         for (int[] row : distance)
+//             Arrays.fill(row, Integer.MAX_VALUE);
+
+//         PriorityQueue<Node> pq =
+//                 new PriorityQueue<>((a, b) -> a.dist - b.dist);
+
+//         distance[0][0] = 1;
+
+//         pq.offer(new Node(1, 0, 0));
+
+//         while (!pq.isEmpty()) {
+
+//             Node curr = pq.poll();
+
+//             int dist = curr.dist;
+//             int r = curr.row;
+//             int c = curr.col;
+
+//             // Skip outdated entries
+//             if (dist > distance[r][c])
+//                 continue;
+
+//             if (r == n - 1 && c == n - 1)
+//                 return dist;
+
+//             for (int[] d : dir) {
+
+//                 int nr = r + d[0];
+//                 int nc = c + d[1];
+
+//                 if (nr >= 0 && nr < n &&
+//                     nc >= 0 && nc < n &&
+//                     grid[nr][nc] == 0) {
+
+//                     if (dist + 1 < distance[nr][nc]) {
+
+//                         distance[nr][nc] = dist + 1;
+
+//                         pq.offer(new Node(dist + 1, nr, nc));
+//                     }
+//                 }
+//             }
+//         }
+
+//         return -1;
+//     }
+// }
