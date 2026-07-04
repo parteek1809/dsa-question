@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/parteek1809/dsa-question/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/parteek1809/dsa-question/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/parteek1809/dsa-question/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/parteek1809/dsa-question/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/parteek1809/dsa-question/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/parteek1809/dsa-question/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
 ## Matrix
 |  |
 | ------- |
@@ -33,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/parteek1809/dsa-question/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/parteek1809/dsa-question/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/parteek1809/dsa-question/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -42,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/parteek1809/dsa-question/tree/master/0733-flood-fill) |
 | [0802-find-eventual-safe-states](https://github.com/parteek1809/dsa-question/tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/parteek1809/dsa-question/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -51,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/parteek1809/dsa-question/tree/master/0130-surrounded-regions) |
 | [1020-number-of-enclaves](https://github.com/parteek1809/dsa-question/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
@@ -79,4 +84,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/parteek1809/dsa-question/tree/master/0127-word-ladder) |
+## Binary Search
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/parteek1809/dsa-question/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
