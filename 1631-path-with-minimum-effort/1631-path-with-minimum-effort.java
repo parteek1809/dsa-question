@@ -24,7 +24,7 @@ class Solution {
             for(int i=0;i<4;i++){
                 int nr = r + dr[i];
                 int nc = c + dc[i];
-                if (effort > dist[r][c]) continue;  // reduce unnecessary steps
+                // if (effort > dist[r][c]) continue;  // reduce unnecessary steps
                 if(nr<0 || nc<0 || nr>=n || nc>= m ) continue;
                 int edgeDistance = Math.abs(heights[r][c] - heights[nr][nc]);
                 int newEffort = Math.max(edgeDistance, effort);
