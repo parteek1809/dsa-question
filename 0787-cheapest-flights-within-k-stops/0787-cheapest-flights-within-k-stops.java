@@ -21,7 +21,7 @@ class Solution {
                 int des = neigh[0];
                 int price = neigh[1];
                 int newCost = cost + price;
-                if(newCost < dis[des]){
+                if(newCost < dis[des] && stop<=k){
                     dis[des] = newCost;
                     q.offer(new int[] {stop+1, des, newCost});
                 }
