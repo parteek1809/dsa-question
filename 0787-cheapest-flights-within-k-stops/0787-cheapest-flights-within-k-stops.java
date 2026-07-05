@@ -9,6 +9,7 @@ class Solution {
         }
         int dis[] = new int[n];
         Arrays.fill(dis, Integer.MAX_VALUE);
+        dis[src] = 0;
         Queue<int[]> q = new LinkedList<>();
         q.offer(new int[] {0,src,0});
         while(!q.isEmpty()){
