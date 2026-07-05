@@ -16,7 +16,7 @@ class Solution {
             int stop = curr[0];
             int node = curr[1];
             int cost = curr[2];
-            if(stop > k) continue;
+            // if(stop > k) continue;
             for(int neigh[] : adj.get(node)){
                 int des = neigh[0];
                 int price = neigh[1];
