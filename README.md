@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/parteek1809/dsa-question/tree/master/0070-climbing-stairs) |
 | [0542-01-matrix](https://github.com/parteek1809/dsa-question/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/parteek1809/dsa-question/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Union-Find
@@ -110,4 +111,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/parteek1809/dsa-question/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/parteek1809/dsa-question/tree/master/0787-cheapest-flights-within-k-stops) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/parteek1809/dsa-question/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/parteek1809/dsa-question/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
