@@ -17,11 +17,17 @@ class Solution {
         for(int i=1; i<=nums.length; i++){
             for(int j=1; j<=targetSum; j++){
                 int v = nums[i-1];
-                if(v <= j && dp[i-1][j-v] == true){
-                    dp[i][j] = true;
+                // if(v <= j && dp[i-1][j-v] == true){
+                //     dp[i][j] = true;
+                // }
+                // else if(dp[i-1][j] == true){
+                //     dp[i][j] = true;
+                // }
+                if(v<=j){
+                    dp[i][j] = dp[i-1][j-v] || dp[i-1][j];
                 }
-                else if(dp[i-1][j] == true){
-                    dp[i][j] = true;
+                else{
+                    dp[i][j] = dp[i-1][j];
                 }
             }
         }
