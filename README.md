@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/parteek1809/dsa-question/tree/master/0127-word-ladder) |
+| [0141-linked-list-cycle](https://github.com/parteek1809/dsa-question/tree/master/0141-linked-list-cycle) |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
 ## String
 |  |
@@ -125,4 +126,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/parteek1809/dsa-question/tree/master/0070-climbing-stairs) |
+## Linked List
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/parteek1809/dsa-question/tree/master/0141-linked-list-cycle) |
+## Two Pointers
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/parteek1809/dsa-question/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
