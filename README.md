@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/parteek1809/dsa-question/tree/master/0130-surrounded-regions) |
 | [0416-partition-equal-subset-sum](https://github.com/parteek1809/dsa-question/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/parteek1809/dsa-question/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/parteek1809/dsa-question/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/parteek1809/dsa-question/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/parteek1809/dsa-question/tree/master/0739-daily-temperatures) |
@@ -87,11 +88,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/parteek1809/dsa-question/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/parteek1809/dsa-question/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/parteek1809/dsa-question/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/parteek1809/dsa-question/tree/master/0739-daily-temperatures) |
 ## Hash Table
 |  |
