@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0130-surrounded-regions](https://github.com/parteek1809/dsa-question/tree/master/0130-surrounded-regions) |
 | [0416-partition-equal-subset-sum](https://github.com/parteek1809/dsa-question/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/parteek1809/dsa-question/tree/master/0070-climbing-stairs) |
 | [0416-partition-equal-subset-sum](https://github.com/parteek1809/dsa-question/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/parteek1809/dsa-question/tree/master/0542-01-matrix) |
@@ -87,12 +89,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/parteek1809/dsa-question/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/parteek1809/dsa-question/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/parteek1809/dsa-question/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/parteek1809/dsa-question/tree/master/0739-daily-temperatures) |
@@ -136,5 +140,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/parteek1809/dsa-question/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
