@@ -142,4 +142,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/parteek1809/dsa-question/tree/master/0141-linked-list-cycle) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/parteek1809/dsa-question/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
