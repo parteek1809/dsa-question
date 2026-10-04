@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/parteek1809/dsa-question/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0127-word-ladder](https://github.com/parteek1809/dsa-question/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/parteek1809/dsa-question/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/parteek1809/dsa-question/tree/master/0207-course-schedule) |
@@ -155,4 +156,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/parteek1809/dsa-question/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1661-average-time-of-process-per-machine](https://github.com/parteek1809/dsa-question/tree/master/1661-average-time-of-process-per-machine) |
 | [1683-invalid-tweets](https://github.com/parteek1809/dsa-question/tree/master/1683-invalid-tweets) |
+## Tree
+|  |
+| ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/parteek1809/dsa-question/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/parteek1809/dsa-question/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 <!---LeetCode Topics End-->
