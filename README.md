@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/parteek1809/dsa-question/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/parteek1809/dsa-question/tree/master/0130-surrounded-regions) |
 | [0416-partition-equal-subset-sum](https://github.com/parteek1809/dsa-question/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/parteek1809/dsa-question/tree/master/0496-next-greater-element-i) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/parteek1809/dsa-question/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/parteek1809/dsa-question/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/parteek1809/dsa-question/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0416-partition-equal-subset-sum](https://github.com/parteek1809/dsa-question/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/parteek1809/dsa-question/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/parteek1809/dsa-question/tree/master/0787-cheapest-flights-within-k-stops) |
